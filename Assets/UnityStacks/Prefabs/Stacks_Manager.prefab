@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &995156242747467903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 995156242747467902}
+  - component: {fileID: 995156242747467897}
+  m_Layer: 0
+  m_Name: Stacks_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &995156242747467902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995156242747467903}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &995156242747467897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995156242747467903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43343a177fcaaaa4fa042899bcf533fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walletStacks: SP3W3K2GN7NZEK06MX7V9XZQ8BGBNGMVR368VBGW2
+  walletBitcoin: 
+  networkSetting: 0
+  networkAddressUse: 
+  nftAPIAddressUse: https://api.hiro.so/
+  fetchContract: SP358JBH8FRAF33V83010X1FAFFRK7W3ANJY6HPQ7.numbers::numbers
+  fetchNum: 50
+  fetchIndex: 0
+  fetchMetadata: 0
+  labelStxBalance: {fileID: 0}
+  scrollNftItems: {fileID: 0}
+  m_AccountSTXBalance:
+    rid: -2
+  m_NFTHoldings:
+    rid: -2
+  m_NFTMetadata:
+    rid: -2
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
