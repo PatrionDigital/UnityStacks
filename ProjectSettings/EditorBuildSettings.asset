@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Test_WalletConnection.unity
-    guid: 78245d572d208af46856caafc145fdd5
+    path: Assets/Scenes/Test_Stacks.unity
+    guid: 925e4cfcf58623f459e5dac44833e129
   m_configObjects: {}
